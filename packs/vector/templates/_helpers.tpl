@@ -1,7 +1,0 @@
-[[- define "full_job_name" -]]
-[[- if eq .vector.job_name "" -]]
-[[- .nomad_pack.pack.name | quote -]]
-[[- else -]]
-[[- .vector.job_name | quote -]]
-[[- end -]]
-[[- end -]]
